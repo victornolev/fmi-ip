@@ -25,3 +25,5 @@
 
         Вход:  12345
         Изход: 1234
+## Credits
+https://github.com/ymivanov/Introduction-to-Programming-2020/edit/main/01_types_operators/tasks.md
