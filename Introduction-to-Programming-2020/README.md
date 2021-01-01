@@ -1,6 +1,6 @@
 # Personal solutions
 
-Personal solutions to problems in Introduction to Programming 2020 Course
+Personal solutions to problems in Introduction to Programming 2020 Workshop
 ## About
 
 The purpose of this folder is to store my solutions to the tasks from the Introduction to Programming Workshop, led by assistant Yosif Ivanov. 
