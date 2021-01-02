@@ -3,7 +3,7 @@
  * @author Victor Nolev
  * @date   21.11.2020
  * @brief  Solution for Task 2 from Practice 2
- * Requirements: Solve tasks without using cycles and further knowledge
+ * Requirements: Solve tasks without using loops and further knowledge
  */
 
 #include <iostream>
