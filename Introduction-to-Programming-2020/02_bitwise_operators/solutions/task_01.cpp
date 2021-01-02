@@ -2,8 +2,8 @@
  * @file   task_01.cpp
  * @author Victor Nolev
  * @date   21.11.2020
- * @brief  Solutions for Task 1 from Practice 2.
- * Requirements: Solve tasks without using cycles and further knowledge.
+ * @brief  Solution for Task 1 from Practice 2
+ * Requirements: Solve tasks without using cycles and further knowledge
  */
 
 #include <iostream>
@@ -15,7 +15,7 @@ int main() {
       числото А’ получено от А, чрез вдигане на битовете
       на позиции а1, а2, а3 и да отпечата на екрана
       разликата А’ - А.*/
-    
+
     unsigned int A;
     std::cout << "Enter a number:";
     std::cin >> A;
