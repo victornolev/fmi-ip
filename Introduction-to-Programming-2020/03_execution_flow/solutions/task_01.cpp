@@ -2,7 +2,7 @@
  * @file   task_01.cpp
  * @author Victor Nolev
  * @date   21.11.2020
- * @brief  Solutions for Task 1 from Practice 3.
+ * @brief  Solution for Task 1 from Practice 3.
  * Requirements: Solve task without using loops and further knowledge.
  */
 
