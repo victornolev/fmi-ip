@@ -41,7 +41,8 @@
 
 12. Напишете програма, която прочита координатите на точка(цели числа) и проверява<br>
 къде се намира точката спрямо фигурата - в черната или бялата част, на външния контур<br> или извън фигурата.
-![Image](res/image.jpg)
+![image](https://user-images.githubusercontent.com/22403085/103485649-7d0e7c80-4e00-11eb-830d-ae6f708f1e29.jpg)
+
 
 ## Credits
 https://github.com/ymivanov/Introduction-to-Programming-2020/blob/main/03_execution_flow/tasks.md
