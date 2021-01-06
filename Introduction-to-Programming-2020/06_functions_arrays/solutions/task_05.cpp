@@ -55,7 +55,7 @@ bool isPrime(int integer) {
     }
     // All even numbers are not prime except 2
     if (integer % MIN_PRIME_NUMBER == 0) {
-        return integer == 2;
+        return integer == MIN_PRIME_NUMBER;
     }
     for (size_t i = MIN_PRIME_NUMBER + 1; i * i <= integer; ++i) {
         if (integer % i == 0) {
