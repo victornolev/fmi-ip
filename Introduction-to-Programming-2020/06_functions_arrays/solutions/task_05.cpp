@@ -39,6 +39,7 @@ void readElements(int array[], unsigned size) {
         std::cin >> array[elementPosition];
     }
 }
+
 void printPrimeNumbers(const int numbers[], unsigned size) {
     for (size_t i = 0; i < size; ++i) {
         if (isPrime(numbers[i])) {
