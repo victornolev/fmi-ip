@@ -22,15 +22,16 @@ int main() {
 }
 
 bool isPrime(int integer) {
+    const int MIN_PRIME_NUMBER = 2;
     // Smallest prime number is 2
-    if (integer < 2) {
+    if (integer < MIN_PRIME_NUMBER) {
         return false;
     }
     // All even numbers are not prime except 2
-    if (integer % 2 == 0) {
-        return integer == 2;
+    if (integer % MIN_PRIME_NUMBER == 0) {
+        return integer == MIN_PRIME_NUMBER;
     }
-    for (size_t i = 3; i * i <= integer; ++i) {
+    for (size_t i = MIN_PRIME_NUMBER + 1; i * i <= integer; ++i) {
         if (integer % i == 0) {
             return false;
         }
