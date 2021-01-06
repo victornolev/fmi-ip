@@ -12,7 +12,7 @@ const int MAX_SIZE = 1024;
 
 void readElements(int array[], unsigned size);
 
-void printPrimeNumbersFromArray(int numbers[], unsigned size);
+void printPrimeNumbers(const int numbers[], unsigned size);
 
 bool isPrime(int integer);
 
@@ -30,7 +30,7 @@ int main() {
 
     int numbers[MAX_SIZE];
     readElements(numbers, size);
-    printPrimeNumbersFromArray(numbers, size);
+    printPrimeNumbers(numbers, size);
     return 0;
 }
 
@@ -39,7 +39,7 @@ void readElements(int array[], unsigned size) {
         std::cin >> array[elementPosition];
     }
 }
-void printPrimeNumbersFromArray(int numbers[], unsigned size) {
+void printPrimeNumbers(const int numbers[], unsigned size) {
     for (size_t i = 0; i < size; ++i) {
         if (isPrime(numbers[i])) {
             std::cout << numbers[i] << ' ';
