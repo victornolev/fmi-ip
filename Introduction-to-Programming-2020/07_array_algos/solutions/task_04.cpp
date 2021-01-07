@@ -12,7 +12,7 @@ const int MAX_SIZE = 1024;
 
 void readElements(int numbers[], size_t elementsCount);
 
-void sortEvenNumbers(const int srcArray[], size_t srcArraySize, const int destArray[], size_t &destSize);
+void sortEvenNumbers(int srcArray[], size_t srcArraySize, int destArray[], size_t &destSize);
 
 bool insertElement(int numbers[], size_t &size, int element);
 
@@ -45,7 +45,7 @@ void readElements(int numbers[], size_t elementsCount) {
     }
 }
 
-void sortEvenNumbers(const int srcArray[], size_t srcArraySize, const int destArray[], size_t &destSize) {
+void sortEvenNumbers(int srcArray[], size_t srcArraySize, int destArray[], size_t &destSize) {
     if (destSize != 0) {
         return;
     }
