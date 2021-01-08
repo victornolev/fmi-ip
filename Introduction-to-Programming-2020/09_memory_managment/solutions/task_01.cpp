@@ -56,6 +56,12 @@ int main() {
     return 0;
 }
 
+void input(int *&arr, int &size) {
+    for (int i = 0; i < size; ++i) {
+        std::cin >> arr[i];
+    }
+}
+
 bool pushBack(int *&arr, int &size, int &capacity, int element) {
     // If elements in array are more than its capacity - increase capacity
     if (size + 1 > capacity) {
